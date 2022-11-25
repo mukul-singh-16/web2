@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: arial;
+        box-sizing: border-box;
+    }
+
+    /* nav bar start */
+    header 
+    {
+        width: 100%;
+        height: 75px;
+        padding: 28px 10%;
+        justify-content: space-between;
+        background-image: linear-gradient(#000000, black);
+        display: flex;
+        align-items: center;
+        opacity: 80%;
+    }
+    .head-img 
+    {
+        display: inline-block;
+        height: 40px;
+        width: 40px;  
+    }
+    .spotify 
+    {
+        display: inline-block;
+    }
+    .logo 
+    {
+        color: white;
+        letter-spacing: 1.6px;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    nav li 
+    {
+        padding: 0px 20px;
+        display: inline-block;
+        list-style: none;
+    }
+    .navbar li a:hover
+    {
+        transition: all 0.8s ease 5s;
+        color: #00ff2a;
+        
+    }
+    a 
+    {    
+        text-decoration: none;
+        text-align: none; 
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+    }  
+    /* nav bar ends */
+
+
+
+    /* first page css */
+    .first
+    {
+        background-color: #d400ff;
+        display: flex;
+    }
+
+    .mobileimg 
+    {
+        padding-top: 6%;
+        padding-left: 12%;
+    }
+    .mobilecontent 
+    {
+        font-size: 30px;
+        padding-top: 17%;
+        padding-left: 5%;
+        color: white;
+    }
+    .btnn 
+    {
+        margin-top: 5%;
+        padding: 5%;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .btnn:hover 
+    {
+        font-size: 15px;
+    }
+    /* first page css end */
+
+    .icon{
+        display: inline-block;
+        margin: 20px;
+        margin-left:80px;
+        margin-right:80px;
+    }
+    .whyspotify
+    {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 40px;
+        margin-left: 600px;
+    }
+
+
+</style>
+
+<body>
+    <!-- navbar starting -->
+    <header class="header">
+        <div class="logo">
+            <img class="head-img" src="/4.jpeg" alt="spotify">
+            <p class="spotify">Spotify</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#premium">Premium</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#login">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navbar ending -->
+
+    <!-- first page starts  -->
+    <section class="first">
+        <div class="mobileimg">
+            <img class="ip-img" src="/6.jpeg" alt="dummy-phone">
+        </div>
+        <div class="mobilecontent">
+            <h1>Play millions of songs and podcasts,for free.</h1>
+            <button class="btnn">GET SPOTIFY FREE</button>
+        </div>
+    </section>
+    <!-- first page end  -->
+
+
+    <!-- second page start -->
+    <section class="second">
+
+        <h2 class="whyspotify">Why Spotify?</h2>
+
+        <div class="icon"><img src="/2.jpeg" alt="ply btn"></div>
+        <div class="icon"><img src="/5.jpeg" alt="playlist btn"></div>
+        <div class="icon"><img src="/5.jpeg" alt=" make it your"></div>
+        <div class="icon"><img src="/1.jpeg" alt="data save"></div>
+        
+    </section>
+
+</body>
+
+</html>
